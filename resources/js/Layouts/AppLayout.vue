@@ -30,19 +30,17 @@ const keluar = () => router.post("/keluar");
                 class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3"
             >
                 <Link href="/" class="flex items-center gap-2 text-brand-900">
-                    <span
-                        class="grid h-9 w-9 place-items-center rounded-xl bg-brand-700 text-lg text-white"
-                        aria-hidden="true"
-                        >♻</span
-                    >
+                    <img
+                        src="/images/logo.png"
+                        alt="Logo JATIZI ECO-BANK"
+                        class="h-10 w-10 object-contain"
+                        width="40"
+                        height="40"
+                    />
                     <span class="leading-tight">
                         <span
                             class="block text-base font-extrabold tracking-tight"
                             >JATIZI ECO-BANK</span
-                        >
-                        <span
-                            class="block text-[11px] font-medium text-brand-800"
-                            >SMK Negeri 1 Cijati</span
                         >
                     </span>
                 </Link>

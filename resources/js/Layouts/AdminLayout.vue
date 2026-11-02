@@ -37,7 +37,7 @@ const keluar = () => router.post('/keluar');
             ]"
         >
             <div class="hidden items-center gap-2 px-5 py-5 lg:flex">
-                <span class="grid h-10 w-10 place-items-center rounded-xl bg-brand-700 text-xl text-white" aria-hidden="true">♻</span>
+                <img src="/images/logo.png" alt="Logo JATIZI ECO-BANK" class="h-11 w-11 object-contain" width="44" height="44" />
                 <span class="leading-tight">
                     <span class="block text-base font-extrabold tracking-tight text-brand-900">JATIZI ECO-BANK</span>
                     <span class="block text-[11px] font-medium text-brand-800">Panel pengelola</span>
