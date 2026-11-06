@@ -28,14 +28,9 @@
 @endphp
 
 <div class="head">
-    <table style="width:100%;border:0"><tr>
-        <td style="border:0;width:52px;padding:0;vertical-align:middle"><img src="{{ public_path('images/logo-192.png') }}" width="46" height="46" alt=""></td>
-        <td style="border:0;padding:0 0 0 8px;vertical-align:middle">
     <h1>Laporan Setoran JATIZI ECO-BANK</h1>
     <p class="sub">Bank Sampah SMK Negeri 1 Cijati</p>
     <p class="sub">Periode: {{ $tgl($filters['dari']) }} s.d. {{ $tgl($filters['sampai']) }} &middot; Kelas: {{ $namaKelas }}</p>
-        </td>
-    </tr></table>
 </div>
 
 <table class="kartu">

@@ -15,7 +15,7 @@ const kirim = () =>
     <div class="mx-auto mt-6 max-w-md">
         <div class="card p-6 sm:p-8">
             <div class="mb-6 text-center">
-                <img src="/images/logo.png" alt="Logo JATIZI ECO-BANK" class="mx-auto h-20 w-20 object-contain" width="80" height="80" />
+                <span class="mx-auto grid h-12 w-12 place-items-center rounded-2xl bg-brand-700 text-2xl text-white" aria-hidden="true">♻</span>
                 <h1 class="mt-3 text-2xl font-extrabold tracking-tight text-brand-900">Masuk ke JATIZI ECO-BANK</h1>
                 <p class="mt-1 text-sm text-slate-600">Admin, petugas, siswa, guru, dan tenaga administrasi.</p>
             </div>
